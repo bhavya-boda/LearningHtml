@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Personal information:</legend>
+        <label for="fname">First name: </label>
+        <input type="text" id="fname" name="fname"><br>
+        <br>
+        <label for="lname">Last name: </label>
+        <input type="text" id="lname" name="lname"> <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Likings: </legend>
+        <p>Choose language you like to code in:</p>
+        <input type="radio" id="html" name="html"> 
+        <label for="html">HTML</label> <br>
+        <input type="radio" id="css" name="css">
+        <label for="css">CSS</label> <br>
+        <input type="radio" id="javascript" name="javascript">
+        <label for="javascript">Javascript</label> <br>
+        <br>
+        <label for="cars">Choose your favourite car</label>
+        <select id="cars" name="cars">
+            <option value="RR">Rolls Royce</option>
+            <option value="J">Jaguar</option>
+            <option value="BMW">BMW</option>
+            <option value="audi" selected>Audi</option>
+          </select>
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend>Choose your favourite Browser: </legend>
+            <input list="Browsers">
+            <datalist id="Browsers">
+                <option value="Edge">
+                <option value="Chrome">
+                <option value="FireFox">
+                <option value="Opera">
+                <option value="Safari">
+                <option value="Brave">
+            </datalist>
+        </fieldset>
+        <br>
+</form>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    0
+    <input type="range"  id="a" name="a" value="50">
+    100 +
+    <input type="number" id="b" name="b" value="50">
+    =
+    <output name="x" for="a b"></output>
+    <br><br>
+          <input type="submit"> <!-- value is used only when we want something instead of submit -->
+          <button type="button" onclick="alert('Hey there continue learning')">Click me</button>
+      </form>
+</body>
+</html>
