@@ -10,12 +10,31 @@
         <fieldset>
             <legend>Personal information:</legend>
         <label for="fname">First name: </label>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname" required autofocus><br>
         <br>
         <label for="lname">Last name: </label>
-        <input type="text" id="lname" name="lname"> <br>
-        </fieldset>
+        <input type="text" id="lname" name="lname" required> <br>
         <br>
+        <label for="mail">Email: </label>
+        <input type="email" id="mail" name="mail" required> <br>
+        <br>
+        <label for="pwd">Password: </label>
+        <input type="password" id="pwd" name="pwd" required> <br>
+        <br>
+        <label for="birthday">Birthday: </label>
+        <input type="date" id="bitrthday" name="bitrthday"> <br>
+        <br>
+        <label for="file">Upload your resume: </label>
+        <input type="file" id="file" name="file"> <br>
+        <br>
+        <input type="hidden" id="id" name="id" value="18">
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" min="18" max="100" required> <br>
+        <br>
+        <label for="num">Contact: </label>
+        <input type="tel" id="num" name="num" pattern="[0-9]{5} [0-9]{5}" placeholder="12345-67890" required> <br>
+        <br>
+        </fieldset>
         <fieldset>
             <legend>Likings: </legend>
         <p>Choose language you like to code in:</p>
@@ -34,9 +53,8 @@
             <option value="audi" selected>Audi</option>
           </select>
         <br>
-        </fieldset>
-        <fieldset>
-            <legend>Choose your favourite Browser: </legend>
+        <br>
+            <label for="Browsers">Choose your favourite Browser: </label>
             <input list="Browsers">
             <datalist id="Browsers">
                 <option value="Edge">
@@ -46,20 +64,18 @@
                 <option value="Safari">
                 <option value="Brave">
             </datalist>
+            <label for="color">Choose yout favourite color: </label>
+            <input type="color" id="color" name="color" value="#0000ff"> <br>
+            <br>
+            <input type="reset"> 
+        <br>
+        <br>
+        <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+        </fieldset>
+        <br>
+        
         </fieldset>
         <br>
 </form>
-
-<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
-    0
-    <input type="range"  id="a" name="a" value="50">
-    100 +
-    <input type="number" id="b" name="b" value="50">
-    =
-    <output name="x" for="a b"></output>
-    <br><br>
-          <input type="submit"> <!-- value is used only when we want something instead of submit -->
-          <button type="button" onclick="alert('Hey there continue learning')">Click me</button>
-      </form>
 </body>
 </html>
