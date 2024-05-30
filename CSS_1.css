@@ -1,0 +1,28 @@
+#box {
+    background-color: blue;
+}
+
+.heading {
+    color:red;
+}
+
+button {
+    background-color: green;
+}
+
+#hone {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+* {
+    font-family: 'Times New Roman';
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}
