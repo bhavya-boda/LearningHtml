@@ -4,33 +4,45 @@
     background-color: black;
     align-items: center;
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#red, #yellow, #green {
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 50px;
+    animation-duration: 9s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
 }
 
 #red {
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    border-radius: 50%;
-    text-align: center;
-    margin-left: 100px;
-    margin-bottom: 50px;
+    animation-name: reds;
 }
 
 #yellow {
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
-    border-radius: 50%;
-    text-align: center;
-    margin-left: 100px;
-    margin-bottom: 50px;
+    animation-name: yellows;
 }
 
 #green {
-    height: 100px;
-    width: 100px;
-    background-color: green;
-    border-radius: 50%;
-    text-align: center;
-    margin-left: 100px;
+    animation-name: greens;
+}
+
+@keyframes reds {
+    0%, 33.33%, 100% { background-color: #ffffff; }
+    16.67% { background-color: #ff0000; box-shadow: 0 0 20px rgba(255, 0, 0, 1); }
+}
+
+@keyframes greens {
+    0%, 16.67%, 66.67%, 100% { background-color: #ffffff; }
+    50% { background-color: #00ff00; box-shadow: 0 0 20px rgba(0, 255, 0, 1); }
+}
+
+@keyframes yellows {
+    0%, 16.67%, 50%, 66.67%, 100% { background-color: #ffffff; }
+    83.33% { background-color: #ffff00; box-shadow: 0 0 20px rgba(255, 255, 0, 1); }
 }
