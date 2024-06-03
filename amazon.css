@@ -16,7 +16,7 @@
 .nav-logo {
     padding-top: 5px;
     height: 50px;
-    width: 110px;
+    width: 115px;
 }
 
 .logo {
@@ -33,6 +33,13 @@
 .border:hover {
     border: 1px solid white;
     border-radius: 4px;
+}
+
+.nav-adress {
+    width:80px;
+    height: 50px;
+    align-content: center;
+    align-items: center;
 }
 
 .add-first {
@@ -53,7 +60,7 @@
 .nav-search {
     display: flex;
     justify-content: space-evenly;
-    width: 620px;
+    width: 800px;
     height: 40px;
     border-radius: 4px;
 }
@@ -98,4 +105,72 @@
 }
 
 
+.us-flag {
+    background-image: url(united-states-flag.png);
+    background-size: cover;
+    height:25px;
+    width: 25px;
+}
 
+.nav-language {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.select-language {
+    outline: none;
+    border: none;
+    font-size: 0.75rem;
+    background-color:#0f1111;
+    color: #ffffff;
+    font-weight:700;
+}
+
+.accounts {
+    height: 50px;
+    width: 135px;
+    align-content: center;
+}
+
+.nav-sign-in {
+    font-size: 0.7rem;
+    margin-left: 4px;
+}
+
+.select-account {
+    font-size: 0.9rem;
+    background-color: #0f1111;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+}
+
+.orders {
+    height: 50px;
+    width: 70px;
+    font-size: 0.7rem;
+    align-content: center;
+}
+
+.order {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.cart {
+    height: 50px;
+    width: 70px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.cart i {
+    font-size: 30px;
+}
