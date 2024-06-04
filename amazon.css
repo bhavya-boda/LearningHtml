@@ -174,3 +174,137 @@
 .cart i {
     font-size: 30px;
 }
+
+.services {
+    height: 40px;
+    background-color: #222f3d;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.select-all {
+    font-size: 0.90rem;
+    font-weight: 600;
+}
+
+.all-text {
+    margin-left: 5px;
+}
+
+.left-part-services {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-evenly;
+    font-size: 0.90rem;
+    font-weight: 500;
+}
+
+.other-text-services {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.home-main {
+    background-image: url(home-main.jpg);
+    height: 260px;
+    background-size: cover;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #cccccc;
+    height: 500px;
+    color: #0f1111;
+}
+
+.box1-text {
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box1 {
+    padding-top: 20px 0px 0px 15px;
+    height: 450px;
+    width: 340px;
+    padding: 20px 0px 0px 15px;
+    background-color: white;
+}
+
+.box1-image {
+    margin-left: 20px;
+    background-image: url(gaming-accessories.jpg);
+    background-size:contain;
+    height: 400px;
+    width: 300px;
+}
+
+.box2-text {
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box2 {
+    padding-top: 20px 0px 0px 15px;
+    height: 450px;
+    width: 340px;
+    padding: 20px 0px 0px 15px;
+    background-color: white;
+}
+
+.box2-image {
+    background-image: url(refresh-your-space.jpg);
+    background-size: contain;
+    height: 400px;
+    width: 320px;
+}
+
+.box3-text {
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box3 {
+    padding-top: 20px 0px 0px 15px;
+    height: 450px;
+    width: 38=40px;
+    padding: 20px 0px 0px 15px;
+    background-color: white;
+}
+
+.box3-image {
+    margin-right: 18px;
+    background-image: url(shop-deals-fashion.jpg);
+    background-size: contain;
+    height: 400px;
+    width: 300px;
+}
+
+.box4-text {
+    height: 30px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box4 {
+    padding-top: 20px 0px 0px 15px;
+    height: 450px;
+    width: 340px;
+    padding: 20px 0px 0px 15px;
+    background-color: white;
+}
+
+.box4-image {
+    background-image: url(PC-deals-image.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 320px;
+}
