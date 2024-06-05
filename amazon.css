@@ -32,6 +32,7 @@
 
 .border:hover {
     border: 1px solid white;
+    cursor: pointer;
     border-radius: 4px;
 }
 
@@ -199,6 +200,7 @@
     justify-content: space-evenly;
     font-size: 0.90rem;
     font-weight: 500;
+    /* cursor: pointer;  */
 }
 
 .other-text-services {
